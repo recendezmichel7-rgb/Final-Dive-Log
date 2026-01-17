@@ -13,9 +13,7 @@ export interface DiveEntry {
   typeOfAir: string;
 }
 
-/**
- * Interface for AI-generated pro diver insights based on site conditions.
- */
+// Added GeminiInsight interface to fix import error in geminiService.ts
 export interface GeminiInsight {
   title: string;
   content: string;
